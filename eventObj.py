@@ -9,8 +9,10 @@ class event:
         self.arrival = None
         self.deadline = None
 
+        #total time needed to complete
         self.time_to_complete = None
 
+        #portion of time completed
         self.time_completed = None
 
         #actively being completed
@@ -19,7 +21,7 @@ class event:
         #time since deadline
         self.late_by = None
 
-        #ignore this
+        #ignore this - for now
         self.link = None
 
 
