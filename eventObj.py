@@ -8,6 +8,7 @@ class event:
 
         #added 
         self.arrival = None
+
         self.deadline = None
 
         #total time needed to complete
@@ -27,8 +28,6 @@ class event:
 
         #ignore this - for now
         self.link = None
-
-
 
     #function to return time until deadline
     def time_to_deadline(self, t):
