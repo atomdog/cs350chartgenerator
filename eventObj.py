@@ -6,6 +6,7 @@ class event:
         #event; occurs @ time x for time y regardless
         self.type = None
 
+        #added 
         self.arrival = None
         self.deadline = None
 
@@ -21,8 +22,12 @@ class event:
         #time since deadline
         self.late_by = None
 
+        #slowdown
+        self.slowdown = None
+
         #ignore this - for now
         self.link = None
+
 
 
     #function to return time until deadline
