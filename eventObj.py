@@ -14,7 +14,14 @@ class event:
         self.time_completed = None
 
         #actively being completed
-        self.active = None
+        self.active = False 
+
+        #time since deadline
+        self.late_by = None
+
+        #ignore this
+        self.link = None
+
 
     #function to return time until deadline
     def time_to_deadline(self, t):
@@ -26,4 +33,8 @@ class event:
 
     #return time to complete of time left until deadline
     def haste(self, t):
+        return(0)
+
+    #update values if marked active etc etc
+    def update(self, t):
         return(0)
