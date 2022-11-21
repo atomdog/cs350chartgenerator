@@ -32,6 +32,14 @@ class momentary:
     def compare(self, t):
         pass
 
+    #load from aidans time format
+    # DDMMMYY
+    # ex: 22NOV22
+    
+    def parse_atf(self, atf_t):
+        pass
+
+
     #load from datetime object
     def parse_dt(self, dt_t):
         pass
