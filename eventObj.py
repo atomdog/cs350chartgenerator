@@ -4,6 +4,9 @@ class event:
 
         #task; can occur @ any time(s) X before time y
         #event; occurs @ time x for time y regardless
+        #deadline; occurs @ time x for no time
+        #
+
         self.type = None
 
         #added 
