@@ -1,3 +1,4 @@
+import chronoObj
 
 class event:
     def __init__(self):
@@ -5,13 +6,13 @@ class event:
         #task; can occur @ any time(s) X before time y
         #event; occurs @ time x for time y regardless
         #deadline; occurs @ time x for no time
-        #
 
         self.type = None
 
-        #added 
+        #time added
         self.arrival = None
 
+        #time to be gone by
         self.deadline = None
 
         #total time needed to complete
@@ -31,6 +32,10 @@ class event:
 
         #ignore this - for now
         self.link = None
+
+        #ignore this - for now
+        self.tags = {}
+        
 
     #function to return time until deadline
     def time_to_deadline(self, t):
